@@ -3,9 +3,9 @@
 A beautifully crafted iOS color encyclopedia built with SwiftUI. Explore, mix, and identify colors — all in one app.
 
 <p align="center">
-  <img src="ss1.jpeg" width="250" />
-  <img src="ss2.jpeg" width="250" />
-  <img src="ss3.jpeg" width="250" />
+  <img src="https://raw.githubusercontent.com/Vanshbansal-7/Chromapedia/main/explore_color_library.jpeg" width="250" />
+  <img src="https://raw.githubusercontent.com/Vanshbansal-7/Chromapedia/main/mix_lab.jpeg" width="250" />
+  <img src="https://raw.githubusercontent.com/Vanshbansal-7/Chromapedia/main/identify_camera.jpeg" width="250" />
 </p>
 
 ## ✨ Features
