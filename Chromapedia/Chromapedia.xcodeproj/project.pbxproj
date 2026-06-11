@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0884F0164C844122B2774F0D /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C6A658D09F41D5A4013C94 /* SharedComponents.swift */; };
+		1B8A09A648D24D728F0B3BF1 /* ChromaLearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B882295E5E74C66A62101F2 /* ChromaLearnApp.swift */; };
+		2DFAB596817A4F3ABCC708C3 /* ColorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E46E6B7C254840A9AE61A5 /* ColorModels.swift */; };
+		5C242EA7AF9345D4A7A209A2 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C93097EB7F4C11BAC87CD4 /* CameraModel.swift */; };
+		75695F1808C346B4ABF95EA4 /* ColorLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CD3160D2C349D28BB4C166 /* ColorLibraryView.swift */; };
+		8DAB81185BAA44C2B0F6C3E1 /* CameraColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A2857E97E440D1812B4B55 /* CameraColorView.swift */; };
+		9A5582ED10B149EFBA26E1D9 /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D5336CE6BD452EA54084F9 /* CustomShapes.swift */; };
+		9D9BB263865549E68137473E /* MixingLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B567E9C58E1C491ABBD27DEF /* MixingLabView.swift */; };
+
+		D6C7B7F710E44C858F953E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2540B4E22C664ADDA00DC5E2 /* Assets.xcassets */; };
+		ED9EA050D92D441A95E5C0B6 /* ColorMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DDEB7405384DCF8C1773FA /* ColorMath.swift */; };
+		A1B2C3D4E5F647A8B9C0D1E2 /* SpectralMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4B5C6D7E849F0A1B2C3D4 /* SpectralMixer.swift */; };
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2540B4E22C664ADDA00DC5E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26D5336CE6BD452EA54084F9 /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
+		3B882295E5E74C66A62101F2 /* ChromaLearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaLearnApp.swift; sourceTree = "<group>"; };
+		47A2857E97E440D1812B4B55 /* CameraColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraColorView.swift; sourceTree = "<group>"; };
+		49DDEB7405384DCF8C1773FA /* ColorMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMath.swift; sourceTree = "<group>"; };
+		64CD3160D2C349D28BB4C166 /* ColorLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLibraryView.swift; sourceTree = "<group>"; };
+		87C6A658D09F41D5A4013C94 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		B567E9C58E1C491ABBD27DEF /* MixingLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixingLabView.swift; sourceTree = "<group>"; };
+		BE7F1B32415D4858BFF4FAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
+		E4C93097EB7F4C11BAC87CD4 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		F3A4B5C6D7E849F0A1B2C3D4 /* SpectralMixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectralMixer.swift; sourceTree = "<group>"; };
+		F8E46E6B7C254840A9AE61A5 /* ColorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModels.swift; sourceTree = "<group>"; };
+
+		PRODUCT_REF /* Chromapedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chromapedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7D719B0F6B41889C383642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356763E0A3B245D2BF65B3C9 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				64CD3160D2C349D28BB4C166 /* ColorLibraryView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5048030BECEB480B98B6D301 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E61515DBA6534063B7FCFB95 /* Components */,
+				356763E0A3B245D2BF65B3C9 /* Library */,
+				CC1F6B38809140BEA4782B6A /* MixLab */,
+				881C3361018B4E7B984205A6 /* Camera */,
+			);
+			name = Views;
+			path = Sources/Views;
+			sourceTree = "<group>";
+		};
+		62E6734B491E44C09BC3CCDE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				49DDEB7405384DCF8C1773FA /* ColorMath.swift */,
+				26D5336CE6BD452EA54084F9 /* CustomShapes.swift */,
+				F3A4B5C6D7E849F0A1B2C3D4 /* SpectralMixer.swift */,
+			);
+			name = Utilities;
+			path = Sources/Utilities;
+			sourceTree = "<group>";
+		};
+		72BC622E10D24AE8936B34D7 /* Chromapedia */ = {
+			isa = PBXGroup;
+			children = (
+				3B882295E5E74C66A62101F2 /* ChromaLearnApp.swift */,
+				ED429B067F1A45B0B1CD8A86 /* Models */,
+				62E6734B491E44C09BC3CCDE /* Utilities */,
+				5048030BECEB480B98B6D301 /* Views */,
+				A4FF800D03B14B749EAC24E5 /* Resources */,
+				BE7F1B32415D4858BFF4FAED /* Info.plist */,
+			);
+			path = Chromapedia;
+			sourceTree = "<group>";
+		};
+		7A3AAD1DFB324B3DBEF9AB0B = {
+			isa = PBXGroup;
+			children = (
+				72BC622E10D24AE8936B34D7 /* Chromapedia */,
+				PRODUCTS_GROUP /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		881C3361018B4E7B984205A6 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E4C93097EB7F4C11BAC87CD4 /* CameraModel.swift */,
+				47A2857E97E440D1812B4B55 /* CameraColorView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		A4FF800D03B14B749EAC24E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2540B4E22C664ADDA00DC5E2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC1F6B38809140BEA4782B6A /* MixLab */ = {
+			isa = PBXGroup;
+			children = (
+				B567E9C58E1C491ABBD27DEF /* MixingLabView.swift */,
+			);
+			path = MixLab;
+			sourceTree = "<group>";
+		};
+
+		E61515DBA6534063B7FCFB95 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				87C6A658D09F41D5A4013C94 /* SharedComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+
+		ED429B067F1A45B0B1CD8A86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F8E46E6B7C254840A9AE61A5 /* ColorModels.swift */,
+			);
+			name = Models;
+			path = Sources/Models;
+			sourceTree = "<group>";
+		};
+		PRODUCTS_GROUP /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PRODUCT_REF /* Chromapedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21B6492000EB4F1389F58933 /* Chromapedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377FBFB06F984A049848E40C /* Build configuration list for PBXNativeTarget "Chromapedia" */;
+			buildPhases = (
+				D7E7A053EDCD40FBAD87CE5B /* Sources */,
+				EF7D719B0F6B41889C383642 /* Frameworks */,
+				D9062CEFEE32499CB3DA8F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chromapedia;
+			productName = Chromapedia;
+			productReference = PRODUCT_REF /* Chromapedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68FE6D6AD4854981A72FEAB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					21B6492000EB4F1389F58933 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 25ADD57015434406BD7DE29F /* Build configuration list for PBXProject "Chromapedia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A3AAD1DFB324B3DBEF9AB0B;
+			productRefGroup = PRODUCTS_GROUP /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21B6492000EB4F1389F58933 /* Chromapedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9062CEFEE32499CB3DA8F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C7B7F710E44C858F953E2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E7A053EDCD40FBAD87CE5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8A09A648D24D728F0B3BF1 /* ChromaLearnApp.swift in Sources */,
+				2DFAB596817A4F3ABCC708C3 /* ColorModels.swift in Sources */,
+				ED9EA050D92D441A95E5C0B6 /* ColorMath.swift in Sources */,
+				9A5582ED10B149EFBA26E1D9 /* CustomShapes.swift in Sources */,
+				0884F0164C844122B2774F0D /* SharedComponents.swift in Sources */,
+				75695F1808C346B4ABF95EA4 /* ColorLibraryView.swift in Sources */,
+				9D9BB263865549E68137473E /* MixingLabView.swift in Sources */,
+				5C242EA7AF9345D4A7A209A2 /* CameraModel.swift in Sources */,
+				8DAB81185BAA44C2B0F6C3E1 /* CameraColorView.swift in Sources */,
+
+				A1B2C3D4E5F647A8B9C0D1E2 /* SpectralMixer.swift in Sources */,
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E48B338790E4DB282F23F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA312B03756410F86E75D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = RY74C6N3DD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Chromapedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chromapedia.app;
+				PRODUCT_NAME = Chromapedia;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90E068F5C752427DB73105D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = RY74C6N3DD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Chromapedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chromapedia.app;
+				PRODUCT_NAME = Chromapedia;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA7E04F03DD041D2843643D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25ADD57015434406BD7DE29F /* Build configuration list for PBXProject "Chromapedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7E04F03DD041D2843643D4 /* Debug */,
+				2E48B338790E4DB282F23F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377FBFB06F984A049848E40C /* Build configuration list for PBXNativeTarget "Chromapedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA312B03756410F86E75D6F /* Debug */,
+				90E068F5C752427DB73105D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68FE6D6AD4854981A72FEAB0 /* Project object */;
+}
